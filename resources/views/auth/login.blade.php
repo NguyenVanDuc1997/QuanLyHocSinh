@@ -2,7 +2,6 @@
 @section('custom-css')
     <style>
         @import url('https://fonts.googleapis.com/css?family=Numans');
-
         html, body {
             background-image: url({{asset('images/back_ground_login.jpg')}});
             background-size: cover;
@@ -89,8 +88,7 @@
         }</style>
 
 @endsection
-@section('content')
-
+@section('login')
         <div class="container">
             <div class="d-flex justify-content-center h-100">
                 <div class="card">

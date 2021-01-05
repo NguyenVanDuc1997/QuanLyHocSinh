@@ -42,4 +42,9 @@ class User extends Authenticatable
     ];
 
     public $timestamps = false;
+    const SUPER_ADMIN = 0;
+    const PGD = 1;
+    const TRUONG = 2;
+    const NAM = 3;
+    const NU = 4;
 }
